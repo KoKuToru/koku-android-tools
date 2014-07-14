@@ -4,7 +4,13 @@ koku-android-tools
 Collection of useful tools
 
 at.kokutoru.ui
-----
+---------------
+
+automatically `findViewByID`(`@UI_ELEMENT(name = "name in xml")`),  
+automatically `setOnClickListener`(`@UI_ELEMENT(onclick = "func_name")`),  
+automatically store/restore variables(`@UI_SAVESTATE`),  
+automatically `View.inflate`(`@UI_LAYOUT(id = xml)`)
+
 ```Java
 import at.kokutoru.tool.ui.UI;
 import at.kokutoru.tool.ui.UI_ELEMENT;
